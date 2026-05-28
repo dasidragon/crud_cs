@@ -1,0 +1,26 @@
+# Build results
+bin/
+obj/
+
+# Rider / Visual Studio
+.vs/
+.idea/
+*.suo
+*.user
+
+# .NET publish
+publish/
+wwwroot/
+
+# logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# EF Core
+Migrations/*Designer.cs
+
+# secrets
+appsettings.Development.json

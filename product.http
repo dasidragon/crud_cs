@@ -1,0 +1,32 @@
+### BASE URL
+@baseUrl = http://localhost:5186
+
+###
+GET {{baseUrl}}/api/products
+Accept: application/json
+
+###
+GET {{baseUrl}}/api/products/2
+Accept: application/json
+
+###
+POST {{baseUrl}}/api/products
+Content-Type: application/json
+
+{
+    "name": "TV",
+    "price": 1200
+}
+
+
+###
+PUT {{baseUrl}}/api/products/2
+Content-Type: application/json
+
+{
+    "name": "Updated TV",
+    "price": 999
+}
+
+###
+DELETE {{baseUrl}}/api/products/2
